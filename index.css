@@ -37,6 +37,7 @@ body::after {
 	position: relative;
 	display: flex;
 	flex-direction: column;
+	width: 90%;
 }
 
 h1 {
@@ -45,6 +46,7 @@ h1 {
 	font-style: normal;
 	font-size: 60px;
 	margin: 0 0 20px;
+	
 }
 
 .count-down {
@@ -79,32 +81,27 @@ h1 {
 	font-size: 20px;
 }
 
+
+/* Мобильные стили */
 @media (max-width: 500px) {
-	.title {
-		font-size: 35px;
-	}
+    h1 {
+        font-size: 35px;
+    }
 
-	.year {
-		display: none;
-	}
+    .time {
+        margin: 10px;
+    }
 
-	.countdown {
-		align-items: center;
-	}
+    .time h2 {
+        font-size: 32px;
+        width: 50px;
+    }
 
-	.time {
-		margin: 10px;
-	}
-
-	.time h2 {
-		font-size: 32px;
-		margin: 0;
-	}
-
-	.time small {
-		font-size: 16px;
-	}
+    .time small {
+        font-size: 16px;
+    }
 }
+
 
 /*снег*/
 .snow, .snow:before, .snow:after{
