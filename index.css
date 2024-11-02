@@ -41,9 +41,9 @@ body::after {
 }
 
 h1 {
-	font-family: "Kosugi", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+	font-family: "Marmelad", serif;
+  font-weight: 400;
+  font-style: normal;
 	font-size: 60px;
 	margin: 0 0 20px;
 	
@@ -75,10 +75,10 @@ h1 {
 }
 
 .time small {
-	font-family: "Kosugi", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 20px;
+	font-family: "Marmelad", serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 25px;
 }
 
 
